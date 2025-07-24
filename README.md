@@ -1,44 +1,43 @@
 # Number Guessing Game
 
-A simple number guessing game built with vanilla JavaScript, HTML, and CSS. The user must guess a randomly generated number based on feedback provided by the interface. Ideal for practicing basic DOM manipulation, conditional logic, and user input handling.
+Um jogo simples de adivinhação de números, desenvolvido com JavaScript puro, HTML e CSS. O usuário deve adivinhar um número gerado aleatoriamente com base no feedback fornecido pela interface. Ideal para praticar manipulação básica do DOM, lógica condicional e tratamento de entrada do usuário.
 
-[🔗 Live Demo](https://tjngoh.github.io/Number-Guessing-Game/)
+[🔗 Jogue agora](https://tjngoh.github.io/Number-Guessing-Game/)
 
-## Features
+## Funcionalidades
 
-- Random number generation within a predefined range  
-- Real-time input validation and feedback  
-- Incremental attempt tracking  
-- Game restart functionality  
-- Responsive layout with clean UI  
+- Geração aleatória de números dentro de um intervalo definido  
+- Validação de entrada e feedback em tempo real  
+- Contador de tentativas  
+- Funcionalidade de reinício do jogo  
+- Layout responsivo com interface limpa  
 
-## Technologies Used
+## Tecnologias Utilizadas
 
 - HTML5  
-- CSS3 (custom styling, no frameworks)  
+- CSS3 (estilização personalizada, sem frameworks)  
 - JavaScript (ES6+)  
 
-## Project Structure
+## Estrutura do Projeto
 
-    ├── index.html        // Main HTML structure  
-    ├── style.css         // Styling and layout rules  
-    └── script.js         // Game logic and DOM manipulation
+    ├── index.html        // Estrutura principal da página  
+    ├── style.css         // Regras de estilo e layout  
+    └── script.js         // Lógica do jogo e manipulação do DOM
 
-## How It Works
+## Como Funciona
 
-1. On page load, a random number between a defined min and max is generated.  
-2. The user submits guesses via an input field.  
-3. The script compares the guess to the target number and displays feedback:  
-   - If the guess is too high or too low, a message is shown.  
-   - If the guess is correct, a success message is displayed and the input is disabled.  
-4. The user can reset the game to start over.  
+1. Ao carregar a página, um número aleatório entre um mínimo e máximo definidos é gerado.  
+2. O usuário envia palpites por meio de um campo de entrada.  
+3. O script compara o palpite com o número alvo e exibe o feedback:  
+   - Se o palpite for muito alto ou muito baixo, uma mensagem é exibida.  
+   - Se o palpite estiver correto, uma mensagem de sucesso aparece e o campo de entrada é desativado.  
+4. O usuário pode reiniciar o jogo a qualquer momento.  
 
-## Getting Started
+## Como Executar Localmente
 
-To run the project locally:
+Para rodar o projeto localmente:
 
 ```bash
 git clone https://github.com/tjngoh/Number-Guessing-Game.git
 cd Number-Guessing-Game
 open index.html
-
